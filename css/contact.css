@@ -38,54 +38,68 @@ li a{
 li a:hover{
 	color: blue;
 }
-.image {
-	top:-10px;
-	position: relative;
-	padding-left: 45%;
-	background-color: #d3d3d3;
-}
-.image h1{
-	font-size: 35px;
-}
-.image h2{
-	font-size: 30px;
-	position: relative;
-	left: -25px;
-}
-.image img{
-	border: 2px solid #64B5F6;
-	top: 5px;
-	position: relative;
-	left:15px;
-	height: 100px;
-	width: 100px;
-	border-radius: 50%;
-	transition: all 1.2s;
-}
-.introduction{
-	display: flex;
-	flex-direction: row;
+section{
 	position: relative;
 	top: -10px;
-}
-.info{
-	width:78%;
 	height: 450px;
-	background-color: #CE93D8;
-	font-style: italic;
-	
+	display: flex;
+	flex-direction: row;
+	background-color: gray;
 }
-.imagee img{
-	height: 450px;
-	width:350px;
-	
+.contact{
+	position: relative;
+	padding-left: 32px;
+	width: 50%;
+	padding-top: 40px;
 }
-.image img:hover{
-	transform: rotate(360deg);
+.contact h2{
+	font-size: 25px;
+	color: red;
+}
+.contact h2, .contact p{
+	position: relative;
+	left: 185px;
+	top: 110px;
+}
+.vertical{
+	position: relative;
+	top: -31%;
+	left:98%;
+	width: 1px;
+	height: 420px;
+	background-color: red;
+}
+.form{
+	padding-top: 35px;
+}
+.send{
+	padding-left: 235px;
+}
+input[type=text]{
+	height: 30px;
+	width: 350px;
+}
+input[type=email]{
+	height: 30px;
+	width: 350px;
+}
+input[type=submit]{
+	height:30px;
+	width: 120px;
+}
+input[type=text]:focus {
+    background-color: #E8EAF6;
+
+}
+input[type=email]:focus {
+    background-color: #E8EAF6;
+}
+textarea:focus{
+	 background-color: #E8EAF6;
 }
 footer{
 	position: relative;
-	top: -20px;
+	top: -10px;
 	display: flex;
 	flex-direction: row;
 	
