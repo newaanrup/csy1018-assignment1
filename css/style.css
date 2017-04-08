@@ -5,8 +5,8 @@ UN ID:17421485*/
 	margin: 0;
 }
 header{
-	height: 130px;
-	background-color:white;
+	height: 130px;/* Height is 130px*/
+	background-color:white;/* Background color is white */
 }
 header img{
 	position: relative;
@@ -16,6 +16,7 @@ header img{
 	width: 100px;
 	border-radius: 50%;
 }
+
 nav{
 	box-shadow: 2px 3px 4px gray;
 }
@@ -41,61 +42,66 @@ li a:hover{
 section{
 	position: relative;
 	top: -10px;
-	height: 450px;
-	display: flex;
-	flex-direction: row;
-	background-color: gray;
+	background-image: url("../images/purna.jpg");
+	background-attachment: fixed;
+	background-size:cover;
+	height: 600px;
 }
-.contact{
-	position: relative;
-	padding-left: 32px;
-	width: 50%;
-	padding-top: 40px;
-}
-.contact h2{
-	font-size: 25px;
-	color: red;
-}
-.contact h2, .contact p{
-	position: relative;
-	left: 185px;
-	top: 110px;
-}
-.vertical{
-	position: relative;
-	top: -31%;
-	left:98%;
-	width: 1px;
-	height: 420px;
-	background-color: red;
-}
-.form{
-	padding-top: 35px;
-}
-.send{
-	padding-left: 235px;
-}
-input[type=text]{
-	height: 30px;
-	width: 350px;
-}
-input[type=email]{
-	height: 30px;
-	width: 350px;
-}
-input[type=submit]{
-	height:30px;
-	width: 120px;
-}
-input[type=text]:focus {
-    background-color: #E8EAF6;
 
+.welcome h1{
+	position: relative;
+	top: 25px;
+	color: blue;
+	text-align: center;
+	font-size: 41px;
 }
-input[type=email]:focus {
-    background-color: #E8EAF6;
+.introduction{
+	background-color: white;
+	height: 300px;
+	width: 550px;
+	position: relative;
+	left:28%;
+	top: 9%;
+	display: flex;
+	justify-content: space-between;
 }
-textarea:focus{
-	 background-color: #E8EAF6;
+.image{
+	width: 40%;
+	}
+.image img{
+	position: relative;
+	top: 50px;
+	left:25px;
+	height:205px;
+	width: 150px;
+}
+.name{
+	padding-top: 45px;
+	width: 60%;	
+	box-shadow: 4px 5px 6px gray;
+}
+.name h2{
+	font-size: 38px;
+	font-style: italic;
+	color: #766;
+}
+.name h3{
+	font-size: 28px;
+	font-style: italic;
+	color: navy;
+}
+.name h5{
+	font-size: 33px;
+	font-weight: bold;
+	color: #0054FF;
+}
+.name a{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+}
+.line{
+	width: 74%;
 }
 footer{
 	position: relative;
@@ -140,22 +146,36 @@ header{
 		position: relative;	
 		left: -157px;
 	}
+	.welcome h1{
+		font-size: 28px;
+	}
+	.introduction{
+		left: 0px;
+		width: 350px;
+	}
+	.image img{
+		height: 180px;
+		width: 100px;
+	}
+	.name h2, .name h3{
+		font-size: 18px;
+	}
+	.name h4{
+		font-size: 14px;
+		position: relative;
+		top: -15px;
+	}
+	.name h5{
+		font-size: 25px;
+	}
 	section{
-		display: flex;
-		flex-direction: column;
-		height: 650px;
-	}
-	.contact{
-		top: -120px;
-		height: 80px;
-		left: -180px;
-	}
-	.vertical{
-		display: none;
+		background-image: none;
+		background-color: red;
 	}
 	footer{
 		display: flex;
 		flex-direction: column;
 		width: 735px;
 	}
+
 }
