@@ -5,49 +5,49 @@ UN ID:17421485*/
 	margin: 0;
 }
 header{
-	height: 130px;
-	background-color:white;
+	height: 130px;/*  Height is 130px*/
+	background-color:white;/*Background color is white */
 }
 header img{
-	position: relative;
-	top: 35px;
-	left: 35px;
-	height: 80px;
-	width: 100px;
-	border-radius: 50%;
+	position: relative;/*Here image position is normal */
+	top: 35px;/*Here padding at top is 35px */
+	left: 35px;/*Here padding at left is 35px */
+	height: 80px;/*Here height of image is 80px */
+	width: 100px;/*Here width of image is 100px */
+	border-radius: 50%;/* Border radius is 50% */
 }
 nav{
-	box-shadow: 2px 3px 4px gray;
+	box-shadow: 2px 3px 4px gray;/* Here the shadow of box is gray */
 }
 nav ul{
-	padding-left: 375px;
-	display: flex;
-	justify-content: space-around;
-	position: relative;
-	bottom:25px;
+	padding-left: 375px;/* Here padding at left is 375px*/
+	display: flex;/* Here element are display in block level flex */
+	justify-content: space-around;/* Here the elements are placed before,after and below the line */
+	position: relative;/* Here image position is normal*/
+	bottom:25px;/* Here padding is 25px */
 }
 nav ul li{
-	width: 45px;
-	list-style: none;
+	width: 45px;/*Here width of image is 45px */
+	list-style: none;/* here no marker is shown*/
 }
 li a{
-	text-decoration: none;
+	text-decoration: none;/* Display is normal*/
 	color: black;
-	font-size:28px;
+	font-size:28px;/* text font size is 28px */
 }
 li a:hover{
-	color: blue;
+	color: blue;/* here color is blue */
 }
 section{
-	position: relative;
-	top: -10px;
+	position: relative;/*Here position is normal */
+	top: -10px;/* here padding at top is -10px */
 	height: 450px;
-	display: flex;
-	flex-direction: row;
+	display: flex;/* Here element are display in block level flex*/
+	flex-direction: row;/* items are displayed horizontally as row*/
 	background-color: gray;
 }
 .contact{
-	position: relative;
+	position: relative;/*Here position is normal */
 	padding-left: 32px;
 	width: 50%;
 	padding-top: 40px;
@@ -57,17 +57,17 @@ section{
 	color: red;
 }
 .contact h2, .contact p{
-	position: relative;
+	position: relative;/*Here position is normal */
 	left: 185px;
 	top: 110px;
 }
 .vertical{
-	position: relative;
+	position: relative;/*Here position is normal */
 	top: -31%;
 	left:98%;
 	width: 1px;
 	height: 420px;
-	background-color: red;
+	background-color: red;/*vertical background color is red */
 }
 .form{
 	padding-top: 35px;
@@ -98,36 +98,36 @@ textarea:focus{
 	 background-color: #E8EAF6;
 }
 footer{
-	position: relative;
+	position: relative;/*Here position is normal */
 	top: -10px;
-	display: flex;
-	flex-direction: row;
+	display: flex;/* Here element are display in block level flex*/
+	flex-direction: row;/* items are displayed horizontally as row*/
 	
 }
 .copyright{
 	width: 50%;
-	background-color: lightgray;
+	background-color: lightgray;/*Background colour is light gray */
 }
 .copyright p{
-	padding-top: 15px;
+	padding-top: 15px;/*padding at the top is 15px */
 	font-size: 20px;
 }
 .icons{
-	background-color: lightgray;
+	background-color: lightgray;/*Background colour is light gray */
 	width: 50%;
 
 }
 .icons img{
 	height: 48px;
 	width: 48px;
-	transition-duration: 1.5s;
+	transition-duration: 1.5s;/*Transition duration is 1.5s */
 }
 .icons img:hover{
-	transform: rotate(270deg);
+	transform: rotate(270deg);/* icons rotate at 270degree */
 }
 .icons p{
-	padding-top: 15px;
-	float: left;
+	padding-top: 15px;/*padding at the top is 15px */
+	float: left;/*icons float at left */
 }
 @media (max-width: 600px){
 	
@@ -135,14 +135,14 @@ header{
 	height: 220px;
 }
 	nav ul {
-		display: flex;
-		flex-direction: column;
-		position: relative;	
+		display: flex;/* Here element are display in block level flex*/
+		flex-direction: column;/*items are displayed vertically as column */
+		position: relative;	/*Here position is normal */
 		left: -157px;
 	}
 	section{
-		display: flex;
-		flex-direction: column;
+		display: flex;/* Here element are display in block level flex*/
+		flex-direction: column;/*items are displayed vertically as column */
 		height: 650px;
 	}
 	.contact{
@@ -151,11 +151,11 @@ header{
 		left: -180px;
 	}
 	.vertical{
-		display: none;
+		display: none;/*Vertical line is removed */
 	}
 	footer{
-		display: flex;
-		flex-direction: column;
+		display: flex;/* Here element are display in block level flex*/
+		flex-direction: column;/*items are displayed vertically as column */
 		width: 735px;
 	}
 }

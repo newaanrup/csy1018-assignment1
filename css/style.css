@@ -9,85 +9,85 @@ header{
 	background-color:white;/* Background color is white */
 }
 header img{
-	position: relative;
-	top: 35px;
-	left: 35px;
-	height: 80px;
-	width: 100px;
-	border-radius: 50%;
+	position: relative;/* Here image position is normal*/
+	top: 35px;/* Here padding at top is 35px*/
+	left: 35px;/* Here padding at left is 35px*/
+	height: 80px;/*Here height of image is 80px  */
+	width: 100px;/*Here width of image is 100px */
+	border-radius: 50%;/* Border radius is 50% */
 }
 
 nav{
-	box-shadow: 2px 3px 4px gray;
+	box-shadow: 2px 3px 4px gray;/* Here the shadow of box is gray */
 }
 nav ul{
-	padding-left: 375px;
-	display: flex;
-	justify-content: space-around;
-	position: relative;
-	bottom:25px;
+	padding-left: 375px;/* Here padding at left is 375px*/
+	display: flex;/* Here element are display in block level flex */
+	justify-content: space-around;/* Here the elements are placed before,after and below the line */
+	position: relative;/* Here image position is normal*/
+	bottom:25px;/* Here padding is 25px */
 }
 nav ul li{
-	width: 45px;
-	list-style: none;
+	width: 45px;/*Here width of image is 45px */
+	list-style: none;/* here no marker is shown*/
 }
 li a{
-	text-decoration: none;
+	text-decoration: none;/* Display is normal*/
 	color: black;
-	font-size:28px;
+	font-size:28px;/* text font size is 28px */
 }
 li a:hover{
-	color: blue;
+	color: blue;/* here color is blue */
 }
 section{
-	position: relative;
-	top: -10px;
+	position: relative;/*Here position is normal */
+	top: -10px;/* here padding at top is -10px */
 	background-image: url("../images/purna.jpg");
-	background-attachment: fixed;
-	background-size:cover;
-	height: 600px;
+	background-attachment: fixed;/*here background image is fixed */
+	background-size:cover;/*here background size is fixed */
+	height: 600px;/*here height is 600px */
 }
 
 .welcome h1{
-	position: relative;
+	position: relative;/*Here position is normal */
 	top: 25px;
 	color: blue;
-	text-align: center;
+	text-align: center;/*text is in center */
 	font-size: 41px;
 }
 .introduction{
-	background-color: white;
+	background-color: white;/* the background colour is white*/
 	height: 300px;
 	width: 550px;
-	position: relative;
+	position: relative;/*Here position is normal */
 	left:28%;
 	top: 9%;
-	display: flex;
-	justify-content: space-between;
+	display: flex;/* Here element are display in block level flex*/
+	justify-content: space-between;/* Here the elements are placed before,after and below the line */
 }
 .image{
 	width: 40%;
 	}
 .image img{
-	position: relative;
-	top: 50px;
+	position: relative;/*Here position is normal */
 	left:25px;
+	top: 50px;
 	height:205px;
 	width: 150px;
 }
 .name{
-	padding-top: 45px;
+	padding-top: 45px;/* paddimg at the top is 45px*/
 	width: 60%;	
-	box-shadow: 4px 5px 6px gray;
+	box-shadow: 4px 5px 6px gray;/* Here the shadow of box is gray*/
 }
 .name h2{
 	font-size: 38px;
-	font-style: italic;
+	font-style: italic;/* here the font style is italic */
 	color: #766;
 }
 .name h3{
 	font-size: 28px;
-	font-style: italic;
+	font-style: italic;/* here the font style is italic */
 	color: navy;
 }
 .name h5{
@@ -96,7 +96,7 @@ section{
 	color: #0054FF;
 }
 .name a{
-	text-decoration: none;
+	text-decoration: none;/*Display is normal */
 	font-size: 25px;
 	color: black;
 }
@@ -104,36 +104,36 @@ section{
 	width: 74%;
 }
 footer{
-	position: relative;
+	position: relative;/*Here position is normal */
 	top: -10px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: row;/*items are displayed horizontlly as row */
 	
 }
 .copyright{
 	width: 50%;
-	background-color: lightgray;
+	background-color: lightgray;/*the background colour is light gray */
 }
 .copyright p{
-	padding-top: 15px;
+	padding-top: 15px;/*padding at the top is 15px */
 	font-size: 20px;
 }
 .icons{
-	background-color: lightgray;
+	background-color: lightgray;/*Background colour is light gray */
 	width: 50%;
 
 }
 .icons img{
 	height: 48px;
 	width: 48px;
-	transition-duration: 1.5s;
+	transition-duration: 1.5s;/*Transition duration is 1.5s */
 }
 .icons img:hover{
-	transform: rotate(270deg);
+	transform: rotate(270deg);/* icons rotate at 270degree */
 }
 .icons p{
-	padding-top: 15px;
-	float: left;
+	padding-top: 15px;/*padding at the top is 15px */
+	float: left;/*icons float at left */
 }
 @media (max-width: 600px){
 	
@@ -141,9 +141,9 @@ header{
 	height: 220px;
 }
 	nav ul {
-		display: flex;
-		flex-direction: column;
-		position: relative;	
+		display: flex;/*Here element are display in block level flex */
+		flex-direction: column;/*items are displayed vertically as column */
+		position: relative;	/*Here position is normal */
 		left: -157px;
 	}
 	.welcome h1{
@@ -151,7 +151,7 @@ header{
 	}
 	.introduction{
 		left: 0px;
-		width: 350px;
+		width: 365px;
 	}
 	.image img{
 		height: 180px;
@@ -162,19 +162,19 @@ header{
 	}
 	.name h4{
 		font-size: 14px;
-		position: relative;
+		position: relative;/*Here position is normal */
 		top: -15px;
 	}
 	.name h5{
 		font-size: 25px;
 	}
 	section{
-		background-image: none;
-		background-color: red;
+		background-image: none;/*background image is normal */
+		background-color: #80CBC4;
 	}
 	footer{
 		display: flex;
-		flex-direction: column;
+		flex-direction: column;/*items are displayed vertically as column */
 		width: 735px;
 	}
 
